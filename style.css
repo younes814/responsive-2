@@ -1,0 +1,26 @@
+:root {
+    --gray-color:#808080;
+    --green-color:#3ea055;
+}
+#bg-red {
+    background-color: red;
+}
+#text-red {
+    color: red;
+}
+#text-gray {
+    color: #808080;
+}
+#text-green {
+    color: green;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.green-part {
+    background-color: var(--green-color);
+    border-radius: 20px 20px 0 0 ;
+}
